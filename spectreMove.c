@@ -1,8 +1,18 @@
 /*********************************************************************
-* This is a modified version of Spectre of PoC. The original version 
+* This is a modified version of spectre.c file in Spectre of PoC. The original version 
 * could be access on https://github.com/crozone/SpectrePoC
 * In this version, a moving function is added to move the secret data
 * among memory blocks.
+* To build and run:
+* 1. Clone the spectre PoC repository from https://github.com/crozone/SpectrePoC
+* 2. Copy this file to the same folder as the spectre.c file. 
+* 3. Build:
+*    $ gcc spectre.c -o spectre
+*    $ gcc spectreMove.c -lpthread -o spectreMove
+* 4. Run and see the differences
+*    $ ./spectre
+*    $ ./spectreMove
+*
 *
 * Spectre PoC
 *
