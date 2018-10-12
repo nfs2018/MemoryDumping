@@ -1,3 +1,10 @@
+/*
+* This is a modified version of Meltdown PoC. The original version 
+* could be access on https://github.com/iaik/meltdown
+* In this version, a moving function is added to move the secret data
+* among memory blocks.
+*/
+
 #include "libkdump.h"
 #include <stdio.h>
 #include <stdlib.h>
