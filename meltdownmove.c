@@ -1,8 +1,14 @@
 /*
-* This is a modified version of Meltdown PoC. The original version 
+* This is a modified version of test.c file in Meltdown PoC. The original version 
 * could be access on https://github.com/iaik/meltdown
 * In this version, a moving function is added to move the secret data
 * among memory blocks.
+* To build and run:
+* 1. Clone the meltdown PoC repository from https://github.com/iaik/meltdown
+* 2. Replace the test.c file with this file. The name of the file must be test.c
+* 3. Install glibc-static on your machine
+* 4. Build using make command
+* 5. sudo ./test   
 */
 
 #include "libkdump.h"
