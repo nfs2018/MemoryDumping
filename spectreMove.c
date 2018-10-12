@@ -1,4 +1,8 @@
 /*********************************************************************
+* This is a modified version of Spectre of PoC. The original version 
+* could be access on https://github.com/crozone/SpectrePoC
+* In this version, a moving function is added to move the secret data
+* among memory blocks.
 *
 * Spectre PoC
 *
