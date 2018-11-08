@@ -1,4 +1,4 @@
-# wistp2018
+# Moving Sensitive Data within Memory Blocks
 
 Proof of concept codes of the Moving Sensitive data against Spectre and Meltdown attacks
 
